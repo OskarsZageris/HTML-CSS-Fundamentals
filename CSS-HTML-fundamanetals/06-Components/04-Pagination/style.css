@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    /*align-content: center;*/
+    align-items: center;
+    padding-top: 100px;
+    /*gap:50px;*/
+}
+
+.btn {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    cursor: pointer;
+    border: 1px solid #087f5b;
+}
+/*.btn-icon:hover{*/
+/*    background-color: #099268;*/
+/*    !*color:#fff;*!*/
+/*    stroke: #fff;*/
+/*}*/
+.btn:hover {
+    background-color: #099268;
+
+}
+.btn:hover .btn-icon {
+    stroke: white;
+}
+
+.btn-icon
+{
+
+    width: 20px;
+    height: 20px;
+    stroke: #087f5b;
+}
+.btn--links{
+    color:black;
+}
+
+.pagination {
+    display: flex;
+
+    align-items: center;
+    gap: 12px;
+}
+/*anchor*/
+.btn--links:link,
+.btn--links:visited{
+
+    /*background-color: red;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    /*text-align: center;*/
+    font-weight: 500;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+}
+.btn--links:hover,
+.btn--links:active{
+    background-color: #099268;
+    color:#fff;
+}
+
+.btn--active{
+    background-color: #099268;
+    color:#fff;
+}
+
+.btn--big
+{
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.btn--small
+{
+    font-size: 14px;
+    padding: 8px 16px;
+}
